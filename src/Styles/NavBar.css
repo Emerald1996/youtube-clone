@@ -1,0 +1,102 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background: #fff;
+}
+
+.burger__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    object-fit: contain;
+}
+
+.navbar__searchbox {
+    display: flex;
+    width: 50%;
+    border: 1px solid gray;
+
+}
+
+.navbar__searchbox input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+
+}
+
+.navbar__searchbox input::placeholder {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.search_btn {
+    background-color: rgb(246, 243, 243);
+    border-left: 1px solid gray;
+    color: gray;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.navbar_icon {
+    font-size: 20px !important;
+    cursor: pointer;
+}
+
+.navbar_right_icons {
+    display: flex;
+    align-items: center;
+    margin-right: 25px !important;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        justify-content: space-around;
+        padding: 10px 5px;
+    }
+        .navbar_right_icons{
+            margin-right: 20px;
+        }
+
+    .navbar_icon {
+        font-size: 20px !important;
+    }
+
+    .navbar__searchbox {
+        width: 50%;
+        z-index: 1;
+        margin-right: 5px;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .navbar_right_icons .video__sm {
+        display: none;
+    }
+
+    .navbar__searchbox input {
+        padding: 2px;
+    }
+
+    .burger__logo .menu__icon__sm {
+        display: none;
+    }
+
+}
+@media(min-width: 900px){
+    .navbar_icon{
+        margin-right: 20px !important;
+    }
+}

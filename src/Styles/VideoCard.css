@@ -1,0 +1,68 @@
+.video__container{
+    display: flex;
+    flex-direction: column;
+    flex: 0.8; 
+    /* width: 100%; */
+    position: relative;
+}
+.videoCard__img{
+    width: 250px;
+    transition: .5s;
+}
+
+.videoCard__img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.videoCard_info{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.videoCard_texts{
+    margin-left: 5px;
+    width: 70%;
+    cursor: pointer;
+}
+.videoCard_texts>p{
+    color: gray;
+    font-size: small;
+}
+h5{
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    right: 25%;
+    bottom: 45%;
+    padding: 3px;
+}
+
+@media(max-width: 768px){
+    .videoCard_info{
+        width: 80%;
+    }
+    .videoCard__img:hover {
+        transform: scale(1);
+    }
+   .video__container{
+    padding: 0%;
+    flex: 1;
+   }
+    h5{
+        right: 20%;
+        bottom: 50%;
+    }
+    
+    .videoCard__img{
+        width: 250px;
+        margin-top: 20px;
+    }
+     .videoCard_texts{
+        width: 80%;
+    }
+}
+@media(min-width: 1000px){
+    h5{
+        right: 20%;
+    }
+}

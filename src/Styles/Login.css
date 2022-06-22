@@ -1,0 +1,29 @@
+.login__page{
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login__container{
+    box-shadow: 0 0 5px gray
+    
+}
+.signIn__logo__img{
+    object-fit: contain;
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+.signIn__btn{
+    display: block;
+    margin: auto;
+    
+}
+ .btn{
+    padding: 2px 25px !important;
+    cursor: pointer;
+    background-color: red !important;
+    /* width: 100%; */
+    
+}
