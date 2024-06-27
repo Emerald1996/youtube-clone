@@ -43,6 +43,10 @@ You can follow this doc on how to initialize the [Firebase/app](https://firebase
    ```sh
    npm install
    ```
+3. Start the server
+   ```sh
+   npm start
+   ```
 
 ## Contribution
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
