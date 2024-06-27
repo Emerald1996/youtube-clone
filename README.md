@@ -1,21 +1,14 @@
 # YOUTUBE-CLONE
 
 <img src="clone-youtube.png" alt="youtube-site"/>
-<p>This is a Project built using Reactjs and firebase </p>
+<p>This is a Project built using Reactjs and firebase auththentication </p>
+<a href="https://clone-34b8d.firebaseapp.com/">View Demo</a>
 
-  <p align="center">
-    This is a Project built using Reactjs and firebase for authentication
-    <br />
-    <br />
-    <br />
-    <a href="https://clone-34b8d.firebaseapp.com/">View Demo</a>
-  </p>
-</p>
 
 ## Technologies Used
 
 - [React](https://react.dev/learn)
-- [Firebase](https://firebase.google.com/docs/auth/web/start) to add google authentication
+- [Firebase](https://firebase.google.com/docs/web/setup) 
 - [NPM](https://www.npmjs.com/)
 
 ## Getting Started
